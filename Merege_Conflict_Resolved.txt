@@ -1,0 +1,23 @@
+A failure DURING a merge indicates a conflict between the current local branch and the branch being merged. This indicates a conflict with another developers code. Git will do its best to merge the files but will leave things for you to resolve manually in the conflicted files. A mid-merge failure will output the following error message:
+error: Entry '<fileName>' would be overwritten by merge. Cannot merge. (Changes in staging area).
+
+To create a conflit I switched to the main branch and created a new file with the same name git_commands.txt and overwritten the content then add it to satge and commit it. Then I tried to merge but it showed an error to what we call merge conflict.
+
+Here I have used the cat command to put out the contents of the git_commands.txt file. We can see some strange new additions in it as follows-
+
+<<<<<<< HEAD
+<Overwritten file content>
+=======
+<Old file content>
+>>>>>>>
+
+Think of these new lines as "conflict dividers". The ======= line is the "center" of the conflict. All the content between the center and the <<<<<<< HEAD line is content that exists in the current branch main which the HEAD ref is pointing to. Alternatively all content between the center and >>>>>>> new_branch is content that is present in our merging branch.
+
+How do I resolve merge conflicts:- 
+The most direct way I apply to resolve a merge conflict is to edit the conflicted file. I opened the git_commands.txt file in text editor. And simply removed all the conflict dividers.
+
+Once the file has been edited I used git add git_commands.txt to stage the new merged content. To finalize the merge create a new commit by executing:
+
+	git commit -m "merged and resolved the conflict in git_commands.txt"
+
+Git will see that the conflict has been resolved and creates a new merge commit to finalize the merge.
