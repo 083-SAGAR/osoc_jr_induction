@@ -1,1 +1,25 @@
+
 Overwritten file
+
+Some random 10 git commands:-
+
+1. git init :- creates a new Git repository .
+
+2. git status:- inspects the contents of the working directory and staging area .
+
+3. git remote -v: Lists a Git project’s remotes
+
+4. git diff:- shows the difference between the working directory and the staging area .
+
+5. git add remote: add a new remote, use the git remote add command on the terminal, in the directory your repository is stored at.
+
+6. git log:- shows a list of all previous commits.
+
+7. git checkout HEAD filename:- Discards changes in the working directory.
+
+8. git reset HEAD filename:- Unstages file changes in the staging area.
+
+9. git reset commit_SHA:- Resets to a previous commit in your commit history.
+
+10. git branch -d branch_name:- Deletes the branch specified.
+>>>>>>> new_branch
