@@ -1,0 +1,30 @@
+commit 5722cf2e283eff0734387e3055c60eb4d919e75f
+Author: Sagar Patidar <shubhampati000@gmail.com>
+Date:   Fri Jan 7 22:01:28 2022 +0530
+
+    create a file about merge conflict and solution
+
+commit 53755d6fd2416bb9c765ba44fbb211c328446a3c
+Merge: 3e9a3b5 5f1e59d
+Author: Sagar Patidar <shubhampati000@gmail.com>
+Date:   Fri Jan 7 21:44:37 2022 +0530
+
+    merged and resolved the conflict in git_commands.txt
+
+commit 3e9a3b50fc85378e7b9380810e4cdf76c53d82d2
+Author: Sagar Patidar <shubhampati000@gmail.com>
+Date:   Fri Jan 7 21:34:36 2022 +0530
+
+    overwritten git_command file
+
+commit 5f1e59dfc83fd9469173ed7e26ef6e0b9232c373
+Author: Sagar Patidar <shubhampati000@gmail.com>
+Date:   Fri Jan 7 21:17:39 2022 +0530
+
+    create git_command file
+
+commit 84d38b4625e3c648eeaf1bbdc9fd542fa954fdb0
+Author: SHANOOR AHMED <76896805+shanoorahmed@users.noreply.github.com>
+Date:   Mon Jan 3 00:41:26 2022 +0530
+
+    Initial commit
